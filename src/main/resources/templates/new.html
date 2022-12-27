@@ -19,18 +19,18 @@
                 <label class="form-label" >Employee Name</label>
                 <td>
                 <input type="hidden" th:field="*{id}" />
-                <input type="text" th:field="*{studentname}" class="form-control" placeholder="Student Name" />
+                <input type="text" th:field="*{studentname}" class="form-control" placeholder="Employee Name" />
                 </td>
             </tr>
          </div>  
             
            <div alight="left">
-          
-            <tr>
+           <tr>
                  <label class="form-label" >Course</label>
                 <td><input type="text" th:field="*{course}" class="form-control" placeholder="Course" /></td>
             </tr>
             </div>
+            
             <div alight="left">
                  <tr>
                  <label class="form-label" >Fee</label>
@@ -39,7 +39,8 @@
             </div>
 <br>
             <tr>
-            <td colspan="2"><button type="submit" class="btn btn-info">Save</button>
+            <td colspan="2">
+            <button type="submit" class="btn btn-info">Save</button>
             <input type="button" value="Back" onclick="history.back()" class="btn btn-info"/>
             </td>
             </tr>
